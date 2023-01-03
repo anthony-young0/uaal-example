@@ -7,6 +7,7 @@
 @protocol NativeCallsProtocol
 @required
 - (void) showHostMainWindow:(NSString*)color;
+- (void) shout:(NSString*)message withUserIds:(NSArray*)userIds;
 // other methods
 @end
 

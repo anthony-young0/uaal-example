@@ -9,6 +9,8 @@ using UnityEngine;
 public class NativeAPI {
     [DllImport("__Internal")]
     public static extern void showHostMainWindow(string lastStringColor);
+    [DllImport("__Internal")]
+    public static extern void shout(string message, string[] userIds, int count);
 }
 #endif
 
@@ -54,6 +56,9 @@ public class Cube : MonoBehaviour
         }
 #elif UNITY_IOS || UNITY_TVOS
         NativeAPI.showHostMainWindow(lastStringColor);
+        
+        string[] userIds = new string[] {"123", "2345", "1111", "9090"};
+        NativeAPI.shout("test shout", userIds, 4);
 #endif
     }
 

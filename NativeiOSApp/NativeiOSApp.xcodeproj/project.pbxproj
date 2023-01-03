@@ -7,16 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D15FC472264A1600006315A /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D15FC462264A1600006315A /* MainViewController.mm */; };
+		929F7FB82961CC7900D2CFFF /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92CAB69F2961C202000D67EC /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		929F800D29631BC900D2CFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F800C29631BC900D2CFFF /* AppDelegate.m */; };
+		929F801629631E8800D2CFFF /* UnityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F801229631E8800D2CFFF /* UnityViewController.swift */; };
+		929F801729631E8800D2CFFF /* UnityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929F801429631E8800D2CFFF /* UnityViewController.xib */; };
+		929F801829631E8800D2CFFF /* UnityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F801529631E8800D2CFFF /* UnityManager.m */; };
+		92F954032963224A0052A243 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F954012963224A0052A243 /* RootViewController.swift */; };
+		92F954042963224A0052A243 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F954022963224A0052A243 /* RootViewController.xib */; };
+		92F9540629632C940052A243 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F9540529632C940052A243 /* BottomSheetViewController.swift */; };
 		9D15FC4A2264A1600006315A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D15FC482264A1600006315A /* Main.storyboard */; };
 		9D15FC4C2264A1600006315A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D15FC4B2264A1600006315A /* Assets.xcassets */; };
 		9D15FC4F2264A1600006315A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D15FC4D2264A1600006315A /* LaunchScreen.storyboard */; };
 		9D78DAFD2265A7FC00274039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D78DAFC2265A7FC00274039 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		929F7FB92961CC7900D2CFFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				929F7FB82961CC7900D2CFFF /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		929F7FB42961C8D300D2CFFF /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929F800C29631BC900D2CFFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929F801129631E8800D2CFFF /* NativeiOSApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeiOSApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		929F801229631E8800D2CFFF /* UnityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnityViewController.swift; path = unity/UnityViewController.swift; sourceTree = "<group>"; };
+		929F801329631E8800D2CFFF /* UnityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnityManager.h; path = unity/UnityManager.h; sourceTree = "<group>"; };
+		929F801429631E8800D2CFFF /* UnityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UnityViewController.xib; path = unity/UnityViewController.xib; sourceTree = "<group>"; };
+		929F801529631E8800D2CFFF /* UnityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnityManager.m; path = unity/UnityManager.m; sourceTree = "<group>"; };
+		92CAB69F2961C202000D67EC /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F954012963224A0052A243 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		92F954022963224A0052A243 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		92F9540529632C940052A243 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		9D15FC3F2264A1600006315A /* NativeiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D15FC462264A1600006315A /* MainViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
 		9D15FC492264A1600006315A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D15FC4B2264A1600006315A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D15FC4E2264A1600006315A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,11 +87,19 @@
 		9D15FC412264A1600006315A /* NativeiOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				9D15FC462264A1600006315A /* MainViewController.mm */,
+				929F801329631E8800D2CFFF /* UnityManager.h */,
+				929F801529631E8800D2CFFF /* UnityManager.m */,
+				929F801229631E8800D2CFFF /* UnityViewController.swift */,
+				929F801429631E8800D2CFFF /* UnityViewController.xib */,
 				9D15FC482264A1600006315A /* Main.storyboard */,
 				9D15FC4B2264A1600006315A /* Assets.xcassets */,
 				9D15FC4D2264A1600006315A /* LaunchScreen.storyboard */,
 				9D15FC502264A1600006315A /* Info.plist */,
+				929F800C29631BC900D2CFFF /* AppDelegate.m */,
+				929F801129631E8800D2CFFF /* NativeiOSApp-Bridging-Header.h */,
+				92F954012963224A0052A243 /* RootViewController.swift */,
+				92F954022963224A0052A243 /* RootViewController.xib */,
+				92F9540529632C940052A243 /* BottomSheetViewController.swift */,
 			);
 			path = NativeiOSApp;
 			sourceTree = "<group>";
@@ -68,6 +107,8 @@
 		9D78DAFB2265A7FC00274039 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				929F7FB42961C8D300D2CFFF /* UnityFramework.framework */,
+				92CAB69F2961C202000D67EC /* UnityFramework.framework */,
 				9D78DAFC2265A7FC00274039 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -83,6 +124,7 @@
 				9D15FC3B2264A15F0006315A /* Sources */,
 				9D15FC3C2264A15F0006315A /* Frameworks */,
 				9D15FC3D2264A15F0006315A /* Resources */,
+				929F7FB92961CC7900D2CFFF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,6 +146,7 @@
 				TargetAttributes = {
 					9D15FC3E2264A15F0006315A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -130,7 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929F801729631E8800D2CFFF /* UnityViewController.xib in Resources */,
 				9D15FC4F2264A1600006315A /* LaunchScreen.storyboard in Resources */,
+				92F954042963224A0052A243 /* RootViewController.xib in Resources */,
 				9D15FC4C2264A1600006315A /* Assets.xcassets in Resources */,
 				9D15FC4A2264A1600006315A /* Main.storyboard in Resources */,
 			);
@@ -143,7 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D15FC472264A1600006315A /* MainViewController.mm in Sources */,
+				92F954032963224A0052A243 /* RootViewController.swift in Sources */,
+				929F800D29631BC900D2CFFF /* AppDelegate.m in Sources */,
+				929F801829631E8800D2CFFF /* UnityManager.m in Sources */,
+				92F9540629632C940052A243 /* BottomSheetViewController.swift in Sources */,
+				929F801629631E8800D2CFFF /* UnityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,17 +334,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZE6P334QKR;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = F2VQ778RU8;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = NativeiOSApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.unity.nativeiOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaobrain.test.uaalexample.nativeiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Wildcard Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeiOSApp/NativeiOSApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -303,16 +361,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZE6P334QKR;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = NativeiOSApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.unity.nativeiOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaobrain.test.uaalexample.nativeiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeiOSApp/NativeiOSApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
